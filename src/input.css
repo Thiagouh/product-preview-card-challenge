@@ -15,10 +15,6 @@ body {
 
 
 /* colors */
-.dark-cyan-bg {
-	background: hsl(158, 36%, 47%);
-}
-
 .dark-cyan-text {
 	color: hsl(158, 36%, 47%);
 }
