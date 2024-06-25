@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/output.css">
+  <title>Frontend Mentor | Product preview card component</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <main class="w-4/5 bg-white rounded-xl overflow-hidden 2xsm:w-2/4 sm:flex sm:w-2/3 md:w-5/12 lg:w-4/12">
+    <img class="block sm:hidden" src="./images/image-product-mobile.jpg" alt="product image">
+    <img class="hidden sm:block sm:w-1/2" src="./images/image-product-desktop.jpg" alt="product image">
+    <div class="p-4 sm:w-1/2 sm:px-6 lg:w-1/2">
+      <p class="text-xs font-montserrat tracking-widest uppercase sm:pt-4">Perfume</p>
+      <h1 class="text-3xl p-1 font-fraunces very-dark-blue sm:pt-3">Gabrielle Essence Eau De Parfum</h1>
+      <p class="p-1.5 sm:pt-2 sm:pb-4">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <div>
+        <div class="flex items-center pb-4">
+          <h2 class="text-3xl font-fraunces dark-cyan-text mr-3">$149.99</h2>
+          <p class="text-xs line-through">$169.99</p>
+        </div>
+        <button class="w-full h-10 dark-cyan-bg text-white font-semibold text-center rounded-md"><i class="ph ph-shopping-cart pr-2"></i>Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
