@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/Thiagouh/product-preview-card-challenge)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://thiagouh.github.io/product-preview-card-challenge/)
 
 ## My process
 
